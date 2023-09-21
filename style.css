@@ -1,0 +1,78 @@
+body {
+    background-color: #008080; 
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.container {
+    padding: 2em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center; 
+    background-color: #ffffcc; 
+    padding: 20px;
+    border: 2px solid #000;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 36px;
+    margin: 10px auto; 
+}
+
+main {
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.movie {
+    background-color: #ffcc99; 
+    border: 2px solid #ff9900; 
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.imdb-button {
+    display: block;
+    background-color: #ff9900; 
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    border: 2px solid #ff6600; 
+}
+
+.imdb-button:hover {
+    background-color: #ff6600; 
+}
